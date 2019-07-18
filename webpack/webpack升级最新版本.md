@@ -28,10 +28,11 @@ npm run dev:client
 npm install webpack-cli -D
 运行：npm run dev:client
 报错：在webpack.config.client.js文件中注释掉extract-text-webpack-plugin的引用
-![Image text](https://raw.githubusercontent.com/demi-yt/data-bank/master/webpack/image/clipboard1.png)
+
 运行：npm run dev:client
 报错：在webpack.config.client.js文件中添加mode
 开发环境：mode: 'development'
 正式环境：mode: 'production'
 
 ```
+![Image text](https://raw.githubusercontent.com/demi-yt/data-bank/master/webpack/image/clipboard1.png)
