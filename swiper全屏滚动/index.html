@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Anthor" content="demi" />
+    <title>Swiper在PC端的全屏页面效果展示跳转</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0}
+        a{
+            color: #333;
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid #23caff;
+            cursor: pointer;
+        }
+        a:hover{
+            background-color: #23caff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<a class="btn" href="swiperPc.html" target="_blank">点击我就可以看到全屏的效果啦！！！</a>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $('.btn').click(function(){
+            localStorage.localIndex = 2
+        });
+    })
+</script>
+</body>
+</html>
